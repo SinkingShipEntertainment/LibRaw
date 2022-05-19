@@ -43,6 +43,10 @@ tools = [
 
 uuid = "repository.LibRaw"
 
+# To release/build, use:
+# rez-release -b cmake
+# rez-bukld -i -b cmake
+
 def pre_build_commands():
     command("source /opt/rh/devtoolset-6/enable")
 
